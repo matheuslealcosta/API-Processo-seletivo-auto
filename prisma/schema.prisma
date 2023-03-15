@@ -17,6 +17,7 @@ model Inscrito {
   nome      String
   email     String   @unique
   telefone  String   @unique
+  curso     String
 
-   @@map("inscritos")
+  @@map("inscritos")
 }
